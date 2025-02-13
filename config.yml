@@ -1,0 +1,5 @@
+sentiment-analyer:
+  # Currently available models:
+  #  - CardiffnlpXlmRobertaBaseSentimentLM (HF: 'cardiffnlp/twitter-xlm-roberta-base-sentiment')
+  #  - TabularisaiDistilbertMultilingualSentimentLM (HF: 'tabularisai/multilingual-sentiment-analysis')
+  model: "CardiffnlpXlmRobertaBaseSentimentLM"

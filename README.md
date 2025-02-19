@@ -15,7 +15,7 @@ This project is a standalone backend solution for sentiment analysis of textual 
 2. **Clone the Repository**
     ```bash
     $ git clone https://github.com/lukasschr/lm-sentiment-analyzer.git
-    $ cd sentiment-analysis-api
+    $ cd lm-sentiment-analyzer
     ```
 3. **Build Image**
     ```bash

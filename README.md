@@ -2,6 +2,10 @@
 
 This project is a standalone backend solution for sentiment analysis of textual data. The sentiment is determined using language models, with the flexibility to choose between different models.
 
+**Currently Available Language Models:**
+- [cardiffnlp/twitter-xlm-roberta-base-sentiment](https://huggingface.co/cardiffnlp/twitter-xlm-roberta-base-sentiment)
+- [tabularisai/multilingual-sentiment-analysis](https://huggingface.co/tabularisai/multilingual-sentiment-analysis)
+
 *Note: This project was developed as part of a university seminar and has been migrated to this repository.*
 
 

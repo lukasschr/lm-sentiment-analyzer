@@ -1,4 +1,4 @@
-VERSION=dev
+VERSION=1.0.1
 DOCKER_IMAGE_NAME=lm-sentiment-analyzer:$(VERSION)
 DOCKER_CONTAINER_NAME=lm-sentiment-analyzer
 

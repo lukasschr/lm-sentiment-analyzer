@@ -14,7 +14,7 @@ class SentimentAnalyzer:
         Raises:
             KeyError: If the specified model name is not found in the configuration.
         """
-        model_name = CONFIG.get("sentiment-analyzer", {}).get("model")
+        model_name = CONFIG["sentiment-analyer"]["model"]
 
         if model_name == "CardiffnlpXlmRobertaBaseSentimentLM":
             from .models import CardiffnlpXlmRobertaBaseSentimentLM

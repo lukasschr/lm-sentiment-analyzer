@@ -24,18 +24,27 @@ This project is a standalone backend solution for sentiment analysis of textual 
 3. **Build Image**
     ```bash
     $ make build
+    # or:
+    # docker build -t lm-sentiment-analyzer:prod .
     ```
 4. **Start Docker Container (Port 8000)**
     ```bash
     $ make run
+    # or:
+    # docker run -d -p 8000:8000 --name lm-sentiment-analyze lm-sentiment-analyzer:prod
     ```
 5. **Stop Docker Container**
     ```bash
     $ make stop
+    # or:
+    # docker stop lm-sentiment-analyze
     ```
 6. **Delete Docker Container & Image**
     ```bash
     $ make delete
+    # or:
+    # docker rm lm-sentiment-analyze
+    # docker rmi lm-sentiment-analyzer:prod
     ```
 
 <!-- Contact -->
